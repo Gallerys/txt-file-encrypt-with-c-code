@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
+    
     FILE *in, *out;
     char ch;
+    
     in =fopen("in.txt","r");
     if (in == NULL){
         puts("File read error");
