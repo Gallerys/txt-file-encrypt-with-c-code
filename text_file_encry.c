@@ -7,13 +7,15 @@ int main(){
     char ch;
     
     in =fopen("in.txt","r");
-    if (in == NULL){
+    if (in == NULL)
+    {
         puts("File read error");
         exit(1);
     }
 
     out = fopen("out.txt","w");
-    if (out == NULL){
+    if (out == NULL)
+    {
         puts("File read error");
         exit(1);
     }
