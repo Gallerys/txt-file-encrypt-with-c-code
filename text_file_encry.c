@@ -29,6 +29,7 @@ int main(){
     printf("\nout.txt file is generated.");
 
     fclose(in);
+    
     fclose(out);
 
 return 0;
